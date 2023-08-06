@@ -19,7 +19,10 @@
 			"svelte": "./dist/index.js"
 		}
 	},
-	"repository": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/noelvegacodes/svelte-img-previewer.git"
+	},
 	"files": [
 		"dist",
 		"!dist/**/*.test.*",
