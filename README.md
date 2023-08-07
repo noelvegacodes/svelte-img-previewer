@@ -28,8 +28,6 @@ If you dont have an initial state to pass the `createImagePreviewer` the `src` s
 <script>
     import { createImagePreviewer } from 'svelte-img-previewer';
 
-
-    // sample image, this can be an image you pull from a user object for example
     const avatar = 'https://avatars.githubusercontent.com/u/130720776?v=4'
     const { src, trigger, imagePreviewer } = createImagePreviewer(avatar);
 </script>
