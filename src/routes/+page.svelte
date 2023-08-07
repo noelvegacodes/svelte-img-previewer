@@ -1,5 +1,5 @@
 <script>
-    import { createImagePreviewer } from '../lib/index';
+    import { createImagePreviewer } from '../lib/index.js';
 
     // sample image, this can be an image you pull from a user object for example
     const avatar = 'https://avatars.githubusercontent.com/u/130720776?v=4'

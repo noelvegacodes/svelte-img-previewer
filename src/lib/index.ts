@@ -36,7 +36,7 @@ export function createImagePreviewer(initialSrc: string | null = null) {
 		};
 	};
 
-	const trigger = (node: HTMLInputElement) => {
+	const trigger = (node: HTMLElement) => {
 		function handleInputClick() {
 			input.click();
 		}
